@@ -3,7 +3,7 @@
 	"displayName": "Orchid",
 	"description": "Customized dark theme for LUA language",
 	"icon": "./assets/icon.png",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "Solor",
 	"repository": {
 		"type": "git",
