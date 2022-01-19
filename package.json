@@ -1,0 +1,49 @@
+{
+	"name": "orchid",
+	"displayName": "Orchid",
+	"description": "Customized dark theme for LUA language",
+	"version": "0.0.1",
+	"publisher": "Solor",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Solor/orchid"
+	},
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Orchid",
+				"uiTheme": "vs-dark",
+				"path": "./themes/orchid.json"
+			}
+		],
+		"languages": [
+			{
+				"id": "lua",
+				"extensions": [
+					".lua",
+					".luacheckrc"
+				],
+				"aliases": [
+					"Lua",
+					"lua"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"injectTo": [
+					"source.lua"
+				],
+				"scopeName": "source.injection",
+				"path": "./syntaxes/lua.json"
+			}
+		]
+	}
+}
